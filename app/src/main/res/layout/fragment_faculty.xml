@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e6e6fa"
+    tools:context=".ui.faculty.FacultyFragment">
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CSE"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:textColor="@color/textColor"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginVertical="8dp"
+            android:background="#c1c1c1"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cseDepartment"
+            android:visibility="gone"
+            android:nestedScrollingEnabled="false"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/csNoData"
+            android:visibility = "gone">
+            <include layout="@layout/no_data_found"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ECE"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:textColor="@color/textColor"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginVertical="8dp"
+            android:background="#c1c1c1"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/eceDepartment"
+            android:visibility="gone"
+            android:nestedScrollingEnabled="false"/>
+
+        <LinearLayout
+            android:id="@+id/eceNoData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility = "gone"
+            android:orientation="vertical">
+            <include layout="@layout/no_data_found"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MEC"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:textColor="@color/textColor"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginVertical="8dp"
+            android:background="#c1c1c1"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mechanicalDepartment"
+            android:visibility="gone"
+            android:nestedScrollingEnabled="false"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility = "gone"
+            android:id="@+id/mechNoData">
+            <include layout="@layout/no_data_found"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BioTech"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:textColor="@color/textColor"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginVertical="8dp"
+            android:background="#c1c1c1"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/biotechDepartment"
+            android:visibility="gone"
+            android:nestedScrollingEnabled="false"/>
+
+        <LinearLayout
+            android:id="@+id/biotechNoData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility = "gone"
+            android:orientation="vertical">
+            <include layout="@layout/no_data_found"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

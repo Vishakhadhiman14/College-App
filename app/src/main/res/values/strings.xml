@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">College App</string>
+    <string name="bold" tools:ignore="ReferenceType">@font/latobold</string>
+    <string name="light" tools:ignore="ReferenceType">@font/latolight</string>
+    <string name="regular" tools:ignore="ReferenceType">@font/latoregular</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start">Start</string>
+    <string name="close">Close</string>
+
+    <string name="about_college">University Institute of Engineering and Technology (UIET) was established by Kurukshetra University in 2004 with objective to develop as a "Centre of Excellence" and offer quality technical education and to undertake research in Engineering and Technology.Presently, the institute is offering four B. Tech (Computer Science and Engineering, Electronics and Communication Engineering, Biotechnology and Mechanical Engineering) and seven M. Tech. course in the technically important disciplines Computer Science and Engineering, Electronics and Communication Engineering, Mechanical Engg. (with the specialization of Industrial and Production Engg., and Thermal Engg.), Biotechnology, Defence Technology and Electrical Engg.</string>
+    <string name="about_cse">Computer Science Engineering (CSE) is an academic programme that integrates the field of Computer Engineering and Computer Science. It is one of the most sought-after courses among engineering students. The course contains a plethora of topics but emphasises the basics of computer programming and networking. The topics covered in the course are computation, algorithms, programming languages, program design, computer software, computer hardware and others. Computer science engineers are involved in many aspects of computing, from the design of individual microprocessors, personal computers, and supercomputers to circuit designing and writing software that powers them.
+        Many technical institutes in India and abroad offer UG (Undergraduate) and PG (Postgraduate) level courses in Computer Science Engineering. Students can do BTech and MTech in Computer Science Engineering from these institutes.</string>
+    <string name="about_ece">Electronics and Communications Engineering (ECE) involves researching, designing, developing, and testing electronic equipment used in various systems. Electronics and Communications engineers also conceptualise and oversee the manufacturing of communications and broadcast systems. This stream of engineering deals with analogue transmission, basic electronics, microprocessors, solid-state devices, digital and analogue communication, analogue integrated circuits, microwave engineering, satellite communication, antennae, and wave progression. It also deals with the manufacturing of electronic devices, circuits, and communications equipment. In India, Electronics and Communications Engineering is offered by various colleges at the UG as well as PG level leading to BTech (4 years) and MTech (2 years) degrees respectively. </string>
+    <string name="about_mech">Technically, mechanical engineering is the application of the principles and problem-solving techniques of engineering from design to manufacturing to the marketplace for any object. Mechanical engineers analyze their work using the principles of motion, energy, and force—ensuring that designs function safely, efficiently, and reliably, all at a competitive cost.Virtually every product or
+Mechanical engineers make a difference.</string>
+    <string name="about_biotech">Biotechnology, or biotech, is the intersection of biological, engineering and computer sciences, which uses living organisms (or parts of them) and biological systems to create products and services with a wide range of applications. Biotech examples span a wide range of industries and use-cases, utilizing various techniques to accomplish goals ranging from creating medication to brewing beer.</string>
+
+    <string-array name="theme">
+        <item>System Default</item>
+        <item>Dark</item>
+        <item>Light</item>
+
+    </string-array>
+
+</resources>
